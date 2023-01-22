@@ -165,6 +165,7 @@
 
   &__social-list {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 32px;
   }
   &__social-item {

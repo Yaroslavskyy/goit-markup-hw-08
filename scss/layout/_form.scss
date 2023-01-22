@@ -1,5 +1,4 @@
-
-  .form {
+.form {
   &__text {
     font-weight: 700;
     font-size: 20px;
@@ -7,10 +6,10 @@
     text-align: center;
     color: $color-mine-shaft;
     margin: 0 0 12px;
-    
+
     @media (min-width: 1200px) {
       font-size: 20px;
-    line-height: 1.15;
+      line-height: 1.15;
     }
   }
   &__field {
@@ -23,16 +22,16 @@
     text-align: start;
     margin-bottom: 10px;
   }
-  
+
   &__label {
     display: block;
     margin-bottom: 4px;
   }
-  
+
   &__rectangle {
     position: relative;
   }
-  
+
   &__input {
     box-sizing: border-box;
     width: 100%;
@@ -49,20 +48,20 @@
       transition: border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
     }
   }
-  
+
   &__icon {
     position: absolute;
     top: 50%;
     left: 15px;
     transform: translateY(-50%);
   }
-  
+
   &__input:hover + .form__icon,
   &__input:focus + .form__icon {
     fill: $color-dodger-blue;
     transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   }
-  
+
   &-field__textarea {
     font-style: normal;
     font-weight: 400;
@@ -73,7 +72,7 @@
     text-align: start;
     margin-bottom: 20px;
   }
-  
+
   &__textarea {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -100,7 +99,7 @@
       color: rgba(117, 117, 117, 0.5);
     }
   }
-  
+
   &__inline {
     position: relative;
     display: flex;
@@ -108,7 +107,7 @@
     justify-content: center;
     margin-bottom: 30px;
   }
-  
+
   &__checbox {
     width: 422px;
     height: 24px;
@@ -128,16 +127,16 @@
       line-height: 1.71;
     }
   }
-  
+
   &__checbox input {
     width: 448px;
     height: 120px;
   }
-  
+
   &__checbox a {
     color: $color-dodger-blue;
   }
-  
+
   &__botton {
     cursor: pointer;
     display: block;

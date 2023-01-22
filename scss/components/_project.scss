@@ -92,7 +92,22 @@
 
   &__img {
     display: block;
-    width: 100%;
+    width: 450px;
+    height: 294px;
+    max-width: 100%;
+
+    @media (min-width: 1200px) {
+      width: 354px;
+height: 294px;
+max-width: 100%;
+    }
+
+    @media (min-width: 1200px) {
+      width: 370px;
+      height: 294px;
+      max-width: 100%;
+    }
+
   }
 
   &__text {
