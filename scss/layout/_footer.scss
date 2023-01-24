@@ -44,18 +44,18 @@ address {
     margin: 0 0 60px;
     margin-left: auto;
     margin-right: auto;
-    
+
     @media (min-width: 480px) {
-    margin: 0 76px 60px 71px;
-    margin-left: auto;
-    margin-right: auto;
+      margin: 0 76px 60px 71px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    
-@media (min-width: 1200px) {
-    margin: 0 93px 0 0;
-    text-align: left;
+
+    @media (min-width: 1200px) {
+      margin: 0 93px 0 0;
+      text-align: left;
     }
-   }
+  }
 
   &__inline.container {
     align-items: baseline;
@@ -72,8 +72,6 @@ address {
     @media (min-width: 1200px) {
       justify-content: flex-start;
     }
-
-   
   }
 
   &-svg__items {
@@ -119,15 +117,11 @@ address {
     margin-right: auto;
     width: 100%;
     max-width: 450px;
-    
 
     @media (min-width: 1200px) {
       text-align: left;
       max-width: 570px;
-      
     }
-
-   
   }
 
   &-input__text {
@@ -139,7 +133,7 @@ address {
     text-align: center;
     margin: 0 0 20px;
 
-     @media (min-width: 1200px) {
+    @media (min-width: 1200px) {
       text-align: left;
     }
   }

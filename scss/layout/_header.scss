@@ -169,16 +169,15 @@
     padding-top: 32px;
   }
   &__social-item {
-   border-left: 1px solid rgba(33, 33, 33, 0.2);
-   padding: 0px 10px;
+    border-left: 1px solid rgba(33, 33, 33, 0.2);
+    padding: 0px 10px;
 
-   &:first-child {
-    border-left: 0px solid rgba(33, 33, 33, 0.2);
-    padding-left: 0;
-    
-   }
+    &:first-child {
+      border-left: 0px solid rgba(33, 33, 33, 0.2);
+      padding-left: 0;
+    }
   }
-  
+
   &__social-link {
     flex-direction: row;
     width: 22px;
@@ -186,17 +185,17 @@
     font-size: 18px;
     line-height: 1.22;
     color: $color-dodger-blue;
-    }
-
-    &__close {
-      border: none;
-      fill: $color-mine-shaft;
-      width: 18px;
-    }
-}
-  a.actively {
-    color: $color-dodger-blue;
   }
+
+  &__close {
+    border: none;
+    fill: $color-mine-shaft;
+    width: 18px;
+  }
+}
+a.actively {
+  color: $color-dodger-blue;
+}
 
 .logo {
   font-weight: 700;
