@@ -459,8 +459,8 @@ template {
 
 .banner {
   max-width: 480px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/home-page/Header480img.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/home-page/Header480img.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/home-page/Header480img.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/home-page/Header480img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -469,32 +469,32 @@ template {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .banner {
-    background-image: url("/images/home-page/Header480img@2x.jpg");
+    background-image: url("../images/home-page/Header480img@2x.jpg");
   }
 }
 @media (min-width: 768px) {
   .banner {
     max-width: 768px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/home-page/Header768img.jpg");
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/home-page/Header768img.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/home-page/Header768img.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/home-page/Header768img.jpg");
   }
 }
 @media (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
   .banner {
-    background-image: url("/images/home-page/Header768img@2x.jpg");
+    background-image: url("../images/home-page/Header768img@2x.jpg");
   }
 }
 @media (min-width: 1200px) {
   .banner {
     max-width: 1600px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/home-page/Img.jpg");
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/home-page/Img.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/home-page/Img.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/home-page/Img.jpg");
     padding: 200px 0;
   }
 }
 @media (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
   .banner {
-    background-image: url("/images/home-page/Img@2x.jpg");
+    background-image: url("../images/home-page/Img@2x.jpg");
   }
 }
 .banner__title {
@@ -754,22 +754,19 @@ template {
 }
 .project__img {
   display: block;
-  width: 450px;
-  height: 294px;
   width: 100%;
+  max-width: 100%;
 }
 @media (min-width: 768px) {
   .project__img {
-    width: 354px;
-    height: 294px;
     width: 100%;
+    max-width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .project__img {
-    width: 370px;
-    height: 294px;
     width: 100%;
+    max-width: 100%;
   }
 }
 .project__text {
@@ -858,21 +855,18 @@ template {
 }
 .team__item-img {
   display: block;
-  width: 450px;
-  height: 460px;
+  width: 100%;
   max-width: 100%;
 }
 @media (min-width: 768px) {
   .team__item-img {
-    width: 354px;
-    height: 374px;
+    width: 100%;
     max-width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .team__item-img {
-    width: 270px;
-    height: 260px;
+    width: 100%;
     max-width: 100%;
   }
 }
@@ -1021,6 +1015,11 @@ template {
   line-height: 1.71;
   color: #757575;
   margin: 0 0 30px;
+}
+@media (min-width: 1200px) {
+  .value__deskription {
+    margin: 0;
+  }
 }
 
 .container {

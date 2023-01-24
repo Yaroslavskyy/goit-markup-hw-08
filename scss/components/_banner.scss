@@ -4,7 +4,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/images/home-page/Header480img.jpg");
+    url("../images/home-page/Header480img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,9 +15,8 @@
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url("/images/home-page/Header480img@2x.jpg");
+    background-image: url("../images/home-page/Header480img@2x.jpg");
   }
-  
 
   @media (min-width: 768px) {
     max-width: 768px;
@@ -25,13 +24,13 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/home-page/Header768img.jpg");
+      url("../images/home-page/Header768img.jpg");
 
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url("/images/home-page/Header768img@2x.jpg");
+      background-image: url("../images/home-page/Header768img@2x.jpg");
     }
   }
 
@@ -41,14 +40,14 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/home-page/Img.jpg");
+      url("../images/home-page/Img.jpg");
     padding: 200px 0;
 
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url("/images/home-page/Img@2x.jpg");
+      background-image: url("../images/home-page/Img@2x.jpg");
     }
   }
 

@@ -92,20 +92,17 @@
 
   &__img {
     display: block;
-    width: 450px;
-    height: 294px;
     width: 100%;
+    max-width: 100%;
 
     @media (min-width: 768px) {
-      width: 354px;
-      height: 294px;
       width: 100%;
+      max-width: 100%;
     }
 
     @media (min-width: 1200px) {
-      width: 370px;
-      height: 294px;
       width: 100%;
+      max-width: 100%;
     }
   }
 
